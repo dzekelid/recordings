@@ -25,7 +25,7 @@ paths:
       description: Returns a list of Recording resource representations, each representing
         anrecording generated during the course of a phone call.n
       operationId: returns-a-list-of-recording-resource-representations-each-representing-arecording-generated-during-t
-      x-api-path-slug: accountsaccountsidcallscallsidrecordingsformat-get
+      x-api-path-slug: accountsaccountsidcallscallsidrecordings-format-get
       parameters:
       - in: path
         name: AccountSid

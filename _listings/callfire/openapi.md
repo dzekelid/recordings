@@ -46,7 +46,7 @@ paths:
       description: Returns an MP3 recording of particular call, response contains
         binary data, content type is 'audio/mpeg'
       operationId: getCallRecordingMp3
-      x-api-path-slug: callsrecordingsidmp3-get
+      x-api-path-slug: callsrecordingsid-mp3-get
       parameters:
       - in: path
         name: id
@@ -107,7 +107,7 @@ paths:
       description: Returns a MP3 recording of a particular call, response contains
         binary data, content type is 'audio/mpeg'
       operationId: getCallRecordingMp3ByName
-      x-api-path-slug: callsidrecordingsnamemp3-get
+      x-api-path-slug: callsidrecordingsname-mp3-get
       parameters:
       - in: path
         name: id

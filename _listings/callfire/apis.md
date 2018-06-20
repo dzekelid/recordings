@@ -1,16 +1,14 @@
 ---
 name: CallFire
 x-slug: callfire
-description: CallFire is a cloud-based telephony company that provides voice and text
-  connectivity services. It offers the necessary tools for businesses to communicate
-  and market effectively. The company works to provide a diverse line of innovative
-  products that enable its users to get their messages delivered.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+  mass text messaging services and power dialing. Try CallFire for FREE!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "129466"
 tags: Recordings
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +16,7 @@ apis:
   x-api-slug: callfire
   description: Returns metadata of recording of a particular call. Metadata contains
     a link to a MP3 recording
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//calls/recordings/{id}
   tags: Calls,Recordings
@@ -31,20 +29,20 @@ apis:
   x-api-slug: callfire
   description: Returns an MP3 recording of particular call, response contains binary
     data, content type is 'audio/mpeg'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//calls/recordings/{id}.mp3
   tags: Calls,Recordings.mp3
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsrecordingsidmp3-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsrecordingsid-mp3-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsrecordingsidmp3-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsrecordingsid-mp3-get-openapi.md
 - name: Callfire Get call recordings for a call
   x-api-slug: callfire
   description: Returns a list of recordings metadata of particular call. Metadata
     contains link to a MP3 recording
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//calls/{id}/recordings
   tags: Calls,Recordings
@@ -57,7 +55,7 @@ apis:
   x-api-slug: callfire
   description: Returns recording metadata of particular call. Metadata contains link
     to a MP3 recording
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//calls/{id}/recordings/{name}
   tags: Calls,Recordings,Name
@@ -70,22 +68,20 @@ apis:
   x-api-slug: callfire
   description: Returns a MP3 recording of a particular call, response contains binary
     data, content type is 'audio/mpeg'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//calls/{id}/recordings/{name}.mp3
   tags: Calls,Recordings,Name.mp3
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsidrecordingsnamemp3-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsidrecordingsname-mp3-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsidrecordingsnamemp3-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/callsidrecordingsname-mp3-get-openapi.md
 - name: Callfire
   x-api-slug: callfire
-  description: CallFire is a cloud-based telephony company that provides voice and
-    text connectivity services. It offers the necessary tools for businesses to communicate
-    and market effectively. The company works to provide a diverse line of innovative
-    products that enable its users to get their messages delivered.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+    mass text messaging services and power dialing. Try CallFire for FREE!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2
   tags: Recordings
@@ -93,7 +89,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/callfire/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
 - type: x-account-billing
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
@@ -115,12 +111,16 @@ x-common:
   url: https://www.callfire.com/contact
 - type: x-crunchbase
   url: https://www.crunchbase.com/organization/callfire
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/callfire
 - type: x-developer
   url: https://www.callfire.com/api-documentation
 - type: x-documentation
   url: https://www.callfire.com/api-documentation/rest/version/1.1
 - type: x-drupal-plugin
   url: https://github.com/CallFire/CallFire-Drupal-Integration
+- type: x-email
+  url: answers@callfire.com
 - type: x-email
   url: support@callfire.com
 - type: x-facebook

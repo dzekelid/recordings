@@ -3,8 +3,9 @@ swagger: "2.0"
 x-collection-name: Twilio
 x-complete: 0
 info:
-  title: Twilio Delete Recording
-  description: Deletes a recording  from your account.
+  title: Twilio Get Recordings
+  description: Returns a list of Recording resource representations, each representing
+    anrecording generated during the course of a phone call.n
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com
@@ -35,43 +36,6 @@ paths:
         description: By default, Twilios REST API returns XML
         type: string
         format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Recordings
-  /Accounts/{AccountSid}/Recordings/{RecordingSid}/Transcriptions:
-    get:
-      summary: Get Recording Transcriptions
-      description: Returns a set of Transcription resource representations that includes
-        pagingninformation.n
-      operationId: returns-a-set-of-transcription-resource-representations-that-includes-paginginformation
-      x-api-path-slug: accountsaccountsidrecordingsrecordingsidtranscriptions-get
-      parameters:
-      - in: path
-        name: AccountSid
-        description: The ID for the Twilio account
-      - in: path
-        name: RecordingSid
-        description: A 34 character string that uniquely identifies the recording
-      responses:
-        200:
-          description: OK
-      tags:
-      - Recordings
-  /Accounts/{AccountSid}/Recordings/{RecordingSid}:
-    delete:
-      summary: Delete Recording
-      description: Deletes a recording  from your account.
-      operationId: deletes-a-recording--from-your-account
-      x-api-path-slug: accountsaccountsidrecordingsrecordingsid-delete
-      parameters:
-      - in: path
-        name: AccountSid
-        description: The ID for the Twilio account
-      - in: path
-        name: RecordingSid
-        description: A 34 character string that uniquely identifies the recording
       responses:
         200:
           description: OK

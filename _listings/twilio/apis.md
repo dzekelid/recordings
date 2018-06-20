@@ -1,16 +1,14 @@
 ---
 name: Twilio
 x-slug: twilio
-description: Twilio, the cloud communications company, providing a telephony infrastructure
-  web service in the cloud, allowing web developers to integrate phone calls, text
-  messages and IP voice communications into their web, mobile and traditional phone
-  applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+description: Cloud communications platform for building SMS, Voice & Messaging applications
+  on an API built for global scale. Get started with a free trial.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "9195"
 tags: Recordings
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,20 +16,20 @@ apis:
   x-api-slug: twilio
   description: Returns a list of Recording resource representations, each representing
     anrecording generated during the course of a phone call.n
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Calls/{CallSid}/Recordings.{format}
   tags: Recordings
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordingsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordingsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-openapi.md
 - name: Twilio Get Recording Transcriptions
   x-api-slug: twilio
   description: Returns a set of Transcription resource representations that includes
     pagingninformation.n
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings/{RecordingSid}/Transcriptions
   tags: Recordings
@@ -43,7 +41,7 @@ apis:
 - name: Twilio Delete Recording
   x-api-slug: twilio
   description: Deletes a recording  from your account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings/{RecordingSid}
   tags: Recordings
@@ -58,7 +56,7 @@ apis:
     a .wav, a binary WAV audio file is returnednwith mime-type audio/x-wav.nAppending
     .mp3 to the URI returns a binary MP3 audio file with mime-typentype audio/mpeg.nAppending
     .xml to the URI returns a XML representation.n
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings/{RecordingSid}
   tags: Recordings
@@ -71,7 +69,7 @@ apis:
   x-api-slug: twilio
   description: Returns a list of Recording resource representations, each representing
     anrecording generated during the course of a phone call.n
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings
   tags: Recordings
@@ -82,11 +80,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordings-get-openapi.md
 - name: Twilio
   x-api-slug: twilio
-  description: Twilio, the cloud communications company, providing a telephony infrastructure
-    web service in the cloud, allowing web developers to integrate phone calls, text
-    messages and IP voice communications into their web, mobile and traditional phone
-    applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
+  description: Cloud communications platform for building SMS, Voice & Messaging applications
+    on an API built for global scale. Get started with a free trial.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Recordings
@@ -94,7 +90,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
 - type: x-acceptable-use-policy
   url: https://www.twilio.com/legal/aup
@@ -112,8 +108,20 @@ x-common:
   url: https://www.twilio.com/help/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/twilio
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/twilio
 - type: x-documentation
   url: https://www.twilio.com/docs/api
+- type: x-email
+  url: help@twilio.com
+- type: x-email
+  url: privacy@twilio.com
+- type: x-email
+  url: legalnotices@twilio.com
+- type: x-email
+  url: trademark@twilio.com
+- type: x-email
+  url: kyleky@twilio.com
 - type: x-getting-started
   url: https://www.twilio.com/docs/quickstart
 - type: x-github
@@ -122,7 +130,7 @@ x-common:
   url: https://www.twilio.com/docs/howto
 - type: x-java-library
   url: https://www.twilio.com/docs/java/install
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://www.twilio.com/docs/node/install
 - type: x-paid-support
   url: https://www.twilio.com/premium-support#features
@@ -162,6 +170,10 @@ x-common:
   url: https://twitter.com/twilio
 - type: x-website
   url: http://www.twilio.com
+- type: x-website
+  url: http://twilio.com
+- type: x-website
+  url: http://stackoverflow.com
 include: []
 maintainers:
 - FN: Kin Lane
