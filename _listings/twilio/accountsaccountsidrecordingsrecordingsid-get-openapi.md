@@ -100,6 +100,22 @@ paths:
           description: OK
       tags:
       - Recordings
+  /Accounts/{AccountSid}/Recordings:
+    get:
+      summary: Get Recordings
+      description: Returns a list of Recording resource representations, each representing
+        anrecording generated during the course of a phone call.n
+      operationId: returns-a-list-of-recording-resource-representations-each-representing-arecording-generated-during-t
+      x-api-path-slug: accountsaccountsidrecordings-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      responses:
+        200:
+          description: OK
+      tags:
+      - Recordings
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

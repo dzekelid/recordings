@@ -1,18 +1,17 @@
----
 swagger: "2.0"
 x-collection-name: GoToMeeting
 x-complete: 1
 info:
-  title: Go To Training
-  description: the-gototraining-api-enables-developers-to-use-the-stable-and-robust-gototraining-functionality-as-the-basis-for-online-trainings-in-a-proprietary-learning-management-system--the-gototraining-apis-provide-the-ability-to-access-the-scheduling-registration-management-and-reporting-functions-of-gototraining-from-external-applications--with-the-ability-to-tightly-integrate-gototraining-into-your-learning-infrastructure-you-can-offer-your-learners-a-seamless-user-experience-and-provide-them-with-a-market-leading-virtual-classroom-environment-
+  title: SCIM
+  description: the-scim-api-lets-you-manage-users-in-your-organization--you-can-then-automate-the-provisioning-of-product-licenses-for-these-users-and-they-can-use-your-companys-single-signon-solution-through-an-identity-provider-
   termsOfService: https://developer.citrixonline.com/terms-use
   contact:
     name: Developer Support
     url: https://developer.citrixonline.com
     email: developer-support@citrixonline.com
-  version: 1.0.0
+  version: N/A
 host: api.citrixonline.com
-basePath: /G2T/rest
+basePath: /identity/v1
 schemes:
 - http
 produces:
@@ -58,4 +57,3 @@ paths:
       - TrainingKey
       - Recordings
       - RecordingId
----

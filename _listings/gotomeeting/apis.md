@@ -7,49 +7,91 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Recordings
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Go To Training Get Online Recordings for Training
-  x-api-slug: go-to-training
+- name: Go To Training - Get Online Recordings for Training
+  x-api-slug: trainingstrainingkeyrecordings-get
   description: This call retrieves information on all online recordings for a given
     training. If there are none, it returns an empty list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2T/rest//trainings/{trainingKey}/recordings
-  tags: Trainings,TrainingKey,Recordings
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordings-get-openapi.md
-- name: Go To Training Get Download for Online Recordings
-  x-api-slug: go-to-training
+- name: Go To Training - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
   description: This call provides the download for the given recording by returning
     a 302 redirect to the original file.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2T/rest//trainings/{trainingKey}/recordings/{recordingId}
-  tags: Trainings,TrainingKey,Recordings,RecordingId
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
-- name: Go To Training
-  x-api-slug: go-to-training
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
+- name: Go To Training - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: This call provides the download for the given recording by returning
+    a 302 redirect to the original file.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
   baseURL: https://api.citrixonline.com//G2T/rest
-  tags: Recordings
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
+- name: Go To Training - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: This call provides the download for the given recording by returning
+    a 302 redirect to the original file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
+- name: Go To Training - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: This call provides the download for the given recording by returning
+    a 302 redirect to the original file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/gotomeeting/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.url.shortener.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gotomeeting.stack.network
 - type: x-base
   url: https://api.citrixonline.com
 - type: x-blog

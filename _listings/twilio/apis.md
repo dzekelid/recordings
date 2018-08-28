@@ -7,93 +7,182 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Recordings
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twilio Get Recordings
-  x-api-slug: twilio
+- name: Twilio - Get Recordings
+  x-api-slug: accountsaccountsidcallscallsidrecordings-format-get
   description: Returns a list of Recording resource representations, each representing
     anrecording generated during the course of a phone call.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Calls/{CallSid}/Recordings.{format}
-  tags: Recordings
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-openapi.md
-- name: Twilio Get Recording Transcriptions
-  x-api-slug: twilio
+- name: Twilio - Get Recording Transcriptions
+  x-api-slug: accountsaccountsidrecordingsrecordingsidtranscriptions-get
   description: Returns a set of Transcription resource representations that includes
     pagingninformation.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings/{RecordingSid}/Transcriptions
-  tags: Recordings
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsidtranscriptions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsidtranscriptions-get-openapi.md
-- name: Twilio Delete Recording
-  x-api-slug: twilio
+- name: Twilio - Delete Recording
+  x-api-slug: accountsaccountsidrecordingsrecordingsid-delete
   description: Deletes a recording  from your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings/{RecordingSid}
-  tags: Recordings
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-delete-openapi.md
-- name: Twilio Get Recording
-  x-api-slug: twilio
+- name: Twilio - Get Recording
+  x-api-slug: accountsaccountsidrecordingsrecordingsid-get
   description: Returns one of several representations:nWithout an extension, or with
     a .wav, a binary WAV audio file is returnednwith mime-type audio/x-wav.nAppending
     .mp3 to the URI returns a binary MP3 audio file with mime-typentype audio/mpeg.nAppending
     .xml to the URI returns a XML representation.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings/{RecordingSid}
-  tags: Recordings
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-get-openapi.md
-- name: Twilio Get Recordings
-  x-api-slug: twilio
+- name: Twilio - Get Recordings
+  x-api-slug: accountsaccountsidrecordings-get
   description: Returns a list of Recording resource representations, each representing
     anrecording generated during the course of a phone call.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/Recordings
-  tags: Recordings
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordings-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: Cloud communications platform for building SMS, Voice & Messaging applications
-    on an API built for global scale. Get started with a free trial.
+- name: Twilio - Get Recordings
+  x-api-slug: accountsaccountsidcallscallsidrecordings-format-get
+  description: Returns a list of Recording resource representations, each representing
+    anrecording generated during the course of a phone call.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
-  tags: Recordings
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-openapi.md
+- name: Twilio - Get Recordings
+  x-api-slug: accountsaccountsidrecordings-get
+  description: Returns a list of Recording resource representations, each representing
+    anrecording generated during the course of a phone call.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordings-get-openapi.md
+- name: Twilio - Delete Recording
+  x-api-slug: accountsaccountsidrecordingsrecordingsid-delete
+  description: Deletes a recording  from your account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-delete-openapi.md
+- name: Twilio - Get Recording
+  x-api-slug: accountsaccountsidrecordingsrecordingsid-get
+  description: Returns one of several representations:nWithout an extension, or with
+    a .wav, a binary WAV audio file is returnednwith mime-type audio/x-wav.nAppending
+    .mp3 to the URI returns a binary MP3 audio file with mime-typentype audio/mpeg.nAppending
+    .xml to the URI returns a XML representation.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsid-get-openapi.md
+- name: Twilio - Get Recording Transcriptions
+  x-api-slug: accountsaccountsidrecordingsrecordingsidtranscriptions-get
+  description: Returns a set of Transcription resource representations that includes
+    pagingninformation.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsidtranscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/recordings/master/_listings/twilio/accountsaccountsidrecordingsrecordingsidtranscriptions-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
 - type: x-acceptable-use-policy
   url: https://www.twilio.com/legal/aup
+- type: x-api-gallery
+  url: http://tvmaze.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twilio.stack.network
 - type: x-application-gallery
   url: https://www.twilio.com/showcase
 - type: x-base-url
